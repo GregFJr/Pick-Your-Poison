@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pick Your Poison</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+    <section class="chuckJokes">
+        <h1>Chuck Norris Jokes</h1>
+        <button id="jokeButton">Get Joke</button>
+        <p id="jokeText"></p>
+        <button id="jokeThumbsUp" onclick="rateJoke('up')">👍</button>
+        <button id="jokeThumbsDown" onclick="rateJoke('down')">👎</button>
+        <p id="jokeScore">Score: 0</p>
+        <button id="resetJokeScore" onclick="resetJokeScore()">Reset Score</button>
+        </section>
+    
+        <section class="dadJokes">
+          <h1>Dad Jokes</h1>
+          <button id="dadJokeButton">Get Joke</button>
+          <p id="dadJokeText"></p>
+          <button id="dadJokeThumbsUp" onclick="rateDadJoke('up')">👍</button>
+          <button id="dadJokeThumbsDown" onclick="rateDadJoke('down')">👎</button>
+          <p id="dadJokeScore">Score: 0</p>
+          <button id="resetDadJokeScore" onclick="resetDadJokeScore()">Reset Score</button>
+        </section>
+    </div>
+    
+
+    <!--This is the header. it contains the hero-->
+
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+
+
+    <!--Section Bio-->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                <p class="subtitle">
+
+                </p>
+            </div>
+        </section>
+        <div class="container">
+            <picture>
+                <source srcset="..." type="image/svg+xml">
+                <img src="..." class="rounded float-start" alt="...">
+                <img src="..." class="rounded float-end" alt="...">
+            </picture>
+            <h1 class="title">
+                Pick Your Poison
+            </h1>
+            <p class="subtitle">
+                <strong></strong>!
+            </p>
+        </div>
+    </section>
+    <figure class="image is-48x48">
+        <img src="...">
+    </figure>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</html>
