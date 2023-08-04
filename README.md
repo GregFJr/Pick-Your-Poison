@@ -32,3 +32,6 @@ Pick Your Poison is your go-to destination for a dose of humor and laughter. Whe
 
 ## Follow the link & enjoy:
 [Pick-Your-Poison](https://gregfjr.github.io/Pick-Your-Poison/)
+
+## Screenshot
+![Screenshot](.//assets/Screenshot%202023-08-03%20at%209.28.39%20PM.png)
